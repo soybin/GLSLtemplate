@@ -82,7 +82,7 @@ engine::engine() : frames(0), run(true) {
 	//
 	// set shader resolution
 	//
-	shMain->set2i("resolution", width, height);
+	shMain->set2f("resolution", width, height);
 }
 
 engine::~engine() {
